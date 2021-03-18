@@ -1,0 +1,40 @@
+<!DOCTYPE html/>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Age Calculator</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Age Calculator</h1>
+        </header>
+        <section>
+            <div>
+                <p>Year of Birth:
+                    <input type="number" name="txtyear" id="txtyear">
+                </p>
+                <p>
+                    Gender:
+                    <input type="radio" name="radgender" id="male" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" name="radgender" id="female">
+                    <label for="felame">Female</label>
+                </p>
+                <p>
+                    <input type="button" class="button" value="Calculate" onclick="check()">
+                </p>
+            </div>
+            <div id="res">
+                Fill in your Birth Year and check your age! 
+            </div>
+            
+        </section>
+        <footer>
+            <p>&copy; Bruna Marques</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

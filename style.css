@@ -1,0 +1,31 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(158, 92, 219);
+    color: fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+section {
+    color: #424242;
+    background-color: #fff;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 10px #424242cc;
+}
+div {
+    text-align: center;
+    padding: 15px;
+}
+.button {
+    padding: 7px 20px;
+    box-shadow: 3px 3px 7px #42424218;
+    border-radius: 20px;
+    border:1px solid #42424278;
+}
+
+footer {
+    font-style: italic;
+    font-size: 12px;
+}
